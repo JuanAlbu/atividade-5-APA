@@ -52,9 +52,7 @@ int main(void)
 	for (int i=2; i < 2*n+2; i = i+2)
 	{
 		pesos[j] = ord[i];
-		//cout << "pesos: " << pesos[j] << endl;
 		valores[j] = ord[i+1];
-		//cout << "valores: " << valores[j] <<endl;
 		j++;
 	}
 
